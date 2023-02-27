@@ -1,0 +1,20 @@
+.main-home{
+  margin-top: 2rem;
+  margin-left: 4rem;
+}
+
+.product-list {
+  border: 1rem;
+}
+
+.product-item {
+  text-decoration: none;
+  padding: 1rem;
+  margin: 1rem;
+  display: grid;
+  background-color: bisque;
+}
+
+.product-link {
+  color: black;
+}

@@ -1,0 +1,12 @@
+.main-login{
+  padding: 5rem;
+  display: grid;
+}
+
+label, input{
+  display: block;
+}
+
+label{
+  margin-bottom: 1rem;
+}

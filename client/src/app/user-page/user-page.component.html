@@ -1,0 +1,12 @@
+<div class="main-userPage">
+  <h1>Welcome, {{user.name}}</h1>
+
+  <form [formGroup]="editForm" (ngSubmit)="onEdit()">
+    <label for="password">Change Password?
+      <input type="text" id="password" formControlName="password">
+    </label>
+    <button type="submit">Edit</button>
+</form>
+
+  <button (click)="onDelete()">Delete</button>
+</div>

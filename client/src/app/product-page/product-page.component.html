@@ -1,0 +1,14 @@
+<div class="main-productPage">
+  <h1>{{productId}}</h1>
+  <h2>nombre: {{product.name}}</h2>
+  <h3>descripcion: {{product.description}}</h3>
+
+  <form [formGroup]="editForm" (ngSubmit)="onEdit()">
+    <label for="description">Change Description?
+      <input type="text" id="description" formControlName="description">
+    </label>
+    <button type="submit">Edit</button>
+  </form>
+
+  <button (click)="onDelete()">Delete</button>
+</div>

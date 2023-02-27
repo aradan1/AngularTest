@@ -1,0 +1,12 @@
+<div class="main-register">
+  <h2>Register</h2>
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+      <label for="name">Name:
+        <input type="text" id="name" formControlName="name">
+      </label>
+      <label for="password">Password:
+        <input type="text" id="password" formControlName="password">
+      </label>
+      <button type="submit">Register</button>
+  </form>
+</div>

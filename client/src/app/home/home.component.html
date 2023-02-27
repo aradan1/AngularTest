@@ -1,0 +1,10 @@
+<div class="main-home">
+  <h1>Product list:</h1>
+  <a routerLink="/addProduct">Add a Product</a>
+  <div class="product-list">
+    <a class="product-item product-link" *ngFor="let item of products | keyvalue" [routerLink]="['/products/',item.key]">
+      <span>name: <b>{{item.value.name}}</b></span>
+      <span>description: <b>{{item.value.description}}</b></span>
+    </a>
+  </div>
+</div>

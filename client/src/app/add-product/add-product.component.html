@@ -1,0 +1,12 @@
+<div class="main-addProduct">
+  <h2>Add Product</h2>
+  <form [formGroup]="productForm" (ngSubmit)="onSubmit()">
+    <label for="name">Name:
+      <input type="text" id="name" formControlName="name">
+    </label>
+    <label for="description">Description:
+      <input type="text" id="description" formControlName="description">
+    </label>
+    <button type="submit">Save</button>
+  </form>
+</div>

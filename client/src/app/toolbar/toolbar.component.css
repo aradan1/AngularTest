@@ -1,0 +1,29 @@
+  .toolbar {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:rgba(73,63,252,1);
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .icon {
+    margin-left: auto;
+    margin: 16px;
+  }
+  .spacer {
+    margin-right: auto;
+  }
+
+  .nav-link {
+    color:white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+
+  .nav-link:hover {
+    background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+  }
