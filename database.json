@@ -1,0 +1,34 @@
+{
+  "users": {
+    "daniel": {
+      "name": "daniel",
+      "password": "lopez"
+    },
+    "cristian": {
+      "name": "cristian",
+      "password": "gomez"
+    },
+    "javi": {
+      "name": "javi",
+      "password": "perez"
+    }
+  },
+  "products": {
+    "cocacola": {
+      "name": "cola",
+      "description": "marca"
+    },
+    "pipas": {
+      "name": "pipas",
+      "description": "saladas"
+    },
+    "fanta": {
+      "name": "fanta",
+      "description": "naranja"
+    },
+    "cartel": {
+      "name": "cartel",
+      "description": "verde"
+    }
+  }
+}
